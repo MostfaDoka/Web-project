@@ -14,7 +14,6 @@
     href="https://fonts.googleapis.com/css2?family=Cairo:wght@200.1000&family=Open+Sans:ital,wght@0,300.800;1,300.800&display=swap"
     rel="stylesheet">
 </head>
-
 <body>
   <!-- start header -->
   <div class="header" id="header">
@@ -53,6 +52,7 @@
             </ul>
           </div>
         </li>
+        <div class="login"><a href="login.html">Login</a></div>
       </ul>
     </div>
   </div>
@@ -61,7 +61,7 @@
   <div class="landing">
     <div class="container">
       <div class="text">
-        <h1>Welcome, To Mostfa Doka World</h1>
+        <h1 id="text"></h1>
         <p>Here Iam gonna share everything about my life. Books Iam reading, Games Iam Playing, Stories and
           Events</p>
       </div>
@@ -232,8 +232,6 @@
     </div>
   </div>
   <!-- end Features -->
-
-
   <!-- Start Videos -->
   <div class="videos" id="videos">
     <h2 class="main-title">Top Videos</h2>
@@ -268,28 +266,28 @@
     <div class="container">
       <div class="box">
         <i class="far fa-user fa-2x fa-fw"></i>
-        <span class="number">300</span>
+        <span class="number" data-goal="300">0</span>
         <span class="text">Clients</span>
       </div>
       <div class="box">
         <i class="fas fa-code fa-2x fa-fw"></i>
-        <span class="number">400</span>
+        <span class="number" data-goal="400">0</span>
         <span class="text">Projects</span>
       </div>
       <div class="box">
         <i class="fas fa-globe-asia fa-2x fa-fw"></i>
-        <span class="number">12</span>
+        <span class="number" data-goal="12">0</span>
         <span class="text">Countries</span>
       </div>
       <div class="box">
         <i class="far fa-money-bill-alt fa-2x fa-fw"></i>
-        <span class="number">500K</span>
+        <span class="number" data-goal="500">0</span>
         <span class="text">Money</span>
       </div>
     </div>
   </div>
   <!-- End Stats -->
-
+   <script src="main.js"></script>
 </body>
 
 </html>
