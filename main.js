@@ -1,9 +1,18 @@
 
 
+// nav
+  const links = document.querySelectorAll(".main-nav a");
+  const currentPage = window.location.pathname.split("/").pop();
+
+  links.forEach(link => {
+    if (link.getAttribute("href") === currentPage) {
+      link.classList.add("active");
+    }
+  });
 
 // welcome text
 
-let text = "Welcome, To Mostfa Doka World";
+let text = "Build Your Future With EGY.Tech";
 let i = 0;
 
 function typing() {

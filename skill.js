@@ -1,3 +1,12 @@
+// nav
+  const links = document.querySelectorAll(".main-nav a");
+  const currentPage = window.location.pathname.split("/").pop();
+
+  links.forEach(link => {
+    if (link.getAttribute("href") === currentPage) {
+      link.classList.add("active");
+    }
+  });
 // linear louding skill 
 let section = document.querySelector(".our-skills");
 let spans = document.querySelectorAll(".the-progress span");
