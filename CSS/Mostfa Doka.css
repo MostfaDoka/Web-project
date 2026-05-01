@@ -258,7 +258,11 @@ a {
     flex-wrap: wrap;
     position: relative;
 }
-
+@media (max-width: 992px) {
+    .header .container {
+        flex-direction: column;
+    }
+}
 .header .container .logo {
     font-size: 26px;
     color: var(--main-color);
